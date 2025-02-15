@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <input id="color-input" type="color" aria-label="selecting a color" />
+      <select id="select-input">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monochrome-dark</option>
+        <option value="monochrome-light">Monochrome-light</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="analogic-complement">Analogic-complement</option>
+        <option value="triad">Triad</option>
+        <option value="quad">Quad</option>
+      </select>
+      <button id="color-btn">Get color Scheme</button>
+    </header>
+    <main>
+      <div id="main-container" class="main-container">
+        <div class="box">
+          <div class="painted-box" style="background-color: #000000"></div>
+          <p  id="#000000">#000000</p>
+        </div>
+        <div class="box">
+          <div class="painted-box" style="background-color: #1a1919"></div>
+          <p id="#1A1919">#1A1919</p>
+        </div>
+        <div class="box">
+          <div class="painted-box" style="background-color: #343232"></div>
+          <p id="#343232">#343232</p>
+        </div>
+        <div class="box">
+          <div class="painted-box" style="background-color: #4f4a4a"></div>
+          <p id="#4F4A4A">#4F4A4A</p>
+        </div>
+        <div class="box">
+          <div class="painted-box" style="background-color: #6a6262"></div>
+          <p id="#6A6262">#6A6262</p>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
